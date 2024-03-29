@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{9F3A530F-1F3A-4CD7-A058-5D9003D7C3E0}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{934C93D1-373F-4392-B4FF-0600F8A9445B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{DCEBBBAA-C41D-4B59-ACD0-BD6E200E8ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{B3124CDB-BE79-4DF2-A950-4C70D96A290A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{10078C00-8386-4A8A-BF83-42B1A155C265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{A87E6356-06C0-4311-A863-B4ED742D7BA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{95CAD063-5ABB-4A1E-8887-0BA2E537CE6C}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SLC-GQIDS-AlarmReport", "SLC-GQIDS-AlarmReport", "{E4AEA580-5BD5-458D-8538-5BDD558B6EB5}"
+	ProjectSection(SolutionItems) = preProject
+		SLC-GQIDS-AlarmReport.xml = SLC-GQIDS-AlarmReport.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{EB90B7A0-1042-4E1A-AAC3-D67D7B75147B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLC-GQIDS-AlarmReport", "SLC-GQIDS-AlarmReport\SLC-GQIDS-AlarmReport.csproj", "{77438287-F5DC-4CA0-A45C-7A2D66B1B80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77438287-F5DC-4CA0-A45C-7A2D66B1B80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77438287-F5DC-4CA0-A45C-7A2D66B1B80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77438287-F5DC-4CA0-A45C-7A2D66B1B80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77438287-F5DC-4CA0-A45C-7A2D66B1B80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10078C00-8386-4A8A-BF83-42B1A155C265} = {B3124CDB-BE79-4DF2-A950-4C70D96A290A}
+		{95CAD063-5ABB-4A1E-8887-0BA2E537CE6C} = {9F3A530F-1F3A-4CD7-A058-5D9003D7C3E0}
+		{E4AEA580-5BD5-458D-8538-5BDD558B6EB5} = {934C93D1-373F-4392-B4FF-0600F8A9445B}
+		{EB90B7A0-1042-4E1A-AAC3-D67D7B75147B} = {E4AEA580-5BD5-458D-8538-5BDD558B6EB5}
+		{77438287-F5DC-4CA0-A45C-7A2D66B1B80E} = {EB90B7A0-1042-4E1A-AAC3-D67D7B75147B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {999CDEF0-D0D6-4931-BF4F-FA5B0A746CA5}
+	EndGlobalSection
+EndGlobal
